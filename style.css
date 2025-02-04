@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: Roboto;
+    font-family: 'Modric', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -118,6 +118,7 @@ button {
     align-items: center;
     text-align: center;
     padding: 18px;
+    gap: 10px;
     background-color: white;
 }
 
@@ -186,16 +187,7 @@ img {
     border-color: white;
 }
 
-.description {
-    font-family: cursive;
-}
-
-.subtext {
-    font-family: cursive;
-}
-
 .minion {
-    font-family: cursive;
     font-weight: bolder;
 }
 
@@ -211,7 +203,7 @@ img {
 
     .texts {
         font-size: 20px;
-        width: 65%;
+        width: 50%;
     }
     
     .words {
@@ -282,6 +274,14 @@ img {
     .callout-btn {
         width: 100%;
         height: 50%;
+    }
+
+    .quote {
+        margin-top: 20%;
+    }
+
+    .author {
+        margin-bottom: 20%;
     }
 
 
