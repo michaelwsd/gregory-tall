@@ -58,8 +58,6 @@ a {
 #imagelogo {
     width: 480px;
     height: 360px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .subtext {
@@ -191,7 +189,7 @@ img {
     font-weight: bolder;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .header {
         width: 100%;
         padding: 1%;
@@ -203,34 +201,38 @@ img {
 
     .texts {
         font-size: 20px;
-        width: 75%;
-    }
-    
-    .words {
+        text-align: center;
         width: 100%;
-        justify-content: center;
-        align-items: center;
     }
 
     .subtext {
         font-size: 15px;
-        width: 80%;
+        text-align: center;
+        width: 100%;
     }
-
    
     .intro {
-        width: 100%;
+        width: 80%;
         margin: auto;
         flex-wrap: wrap;
         gap: 20px;
     }
 
-    #imagelogo {
+    .buttons {
+        text-align: center;
+    }
+
+    .img {
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin: auto;
         height: 100%;
         width: 100%;
+    }
+
+    #imagelogo {
+        height: 100%;
+        width: 80%;
     }
 
     .quote,
@@ -261,6 +263,7 @@ img {
 
     .part4 {
         padding: 10%;
+        margin: 0;
     }
 
     .primary-text {
@@ -277,14 +280,18 @@ img {
     }
 
     .quote {
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
     .author {
-        margin-bottom: 20%;
+        margin-bottom: 5%;
     }
 
     .linktext {
         font-size: 15px;
+    }
+
+    .boxes {
+        margin: 1%;
     }
 }   
