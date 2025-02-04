@@ -5,7 +5,7 @@
 }
 
 * {
-    font-family: 'Modric', sans-serif;
+    font-family: 'Young Serif', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -63,7 +63,7 @@ a {
 }
 
 .subtext {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
     width: 450px;
 }
@@ -203,7 +203,7 @@ img {
 
     .texts {
         font-size: 20px;
-        width: 50%;
+        width: 100%;
     }
     
     .words {
@@ -284,5 +284,7 @@ img {
         margin-bottom: 20%;
     }
 
-
+    .linktext {
+        font-size: 15px;
+    }
 }   
