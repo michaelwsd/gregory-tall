@@ -1,2 +1,2 @@
 # Gregory Tall
-Site dedicated to Gregory Tall my idol.
+Site dedicated to my idol Gregory Tall.
